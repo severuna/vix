@@ -23,3 +23,12 @@ a {
   display: flex;
   flex-direction: row;
 }
+
+:root {
+  --black: #272727;
+  --beige: #EBEAE8;
+  --gray: #727272;
+  --gold: #E0FD60;
+  --white: #ffffff;
+  --border-gray: 1px solid var(--beige);
+}
