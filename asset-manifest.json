@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vix/static/css/main.09ea4ea2.css",
-    "main.js": "/vix/static/js/main.bfab9d2e.js",
+    "main.css": "/vix/static/css/main.d4ccff49.css",
+    "main.js": "/vix/static/js/main.12fe970f.js",
     "index.html": "/vix/index.html",
-    "main.09ea4ea2.css.map": "/vix/static/css/main.09ea4ea2.css.map",
-    "main.bfab9d2e.js.map": "/vix/static/js/main.bfab9d2e.js.map"
+    "main.d4ccff49.css.map": "/vix/static/css/main.d4ccff49.css.map",
+    "main.12fe970f.js.map": "/vix/static/js/main.12fe970f.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ea4ea2.css",
-    "static/js/main.bfab9d2e.js"
+    "static/css/main.d4ccff49.css",
+    "static/js/main.12fe970f.js"
   ]
 }
