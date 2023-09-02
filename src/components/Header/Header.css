@@ -2,7 +2,6 @@
     margin: 4.6rem 7rem;
     padding: 4.8rem 7rem;
     width: auto;
-    align-items: center;
     border: var(--border-gray);
     background-color: var(--black);
     gap: 6.6rem;
@@ -13,8 +12,6 @@
 }
 
 .header-content {
-    /* width: calc(100% - 28rem); */
-    /* justify-content: space-around; */
     width: auto;
     max-width: calc(100% - 28rem);
     justify-content: left;
@@ -29,7 +26,7 @@
 }
 
 .header-title  {
-    font-family: var(--title-ff);
+    font-family: "Inter";
     text-transform: uppercase;
     font-size: 5.4rem;
     max-width: 80rem;
@@ -57,14 +54,16 @@
     color: var(--beige);
     font-weight: 200;
     max-width: 35rem;
+    font-family: "e-Ukraine";
 }
 
 .header-banner {
     background-image: url('../../assets/img/header_banner.png');
     background-position: top;
-    width: 42rem;
+    width: 55rem;
     height: 60rem;
     position: relative;
+    background-size: cover;
 }
 
 .header-banner h2 {
@@ -74,4 +73,9 @@
     font-weight: 400;
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    text-align: center;
+    font-family: "e-Ukraine";
 }
