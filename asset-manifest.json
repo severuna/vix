@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vix/static/css/main.42e2acd3.css",
-    "main.js": "/vix/static/js/main.f837fd9b.js",
+    "main.css": "/vix/static/css/main.b5747972.css",
+    "main.js": "/vix/static/js/main.dedc6e5c.js",
     "static/media/background.svg": "/vix/static/media/background.f31176c38b336d67ade3.svg",
     "static/media/logo.svg": "/vix/static/media/logo.7cac4aa22389243c91c839c62f0d54a3.svg",
     "index.html": "/vix/index.html",
     "static/media/burger_close.svg": "/vix/static/media/burger_close.d278b674dd669ead3828b5fc655f9899.svg",
     "static/media/burger_open.svg": "/vix/static/media/burger_open.73e4161bddab8f6956fdefb47e43668d.svg",
-    "main.42e2acd3.css.map": "/vix/static/css/main.42e2acd3.css.map",
-    "main.f837fd9b.js.map": "/vix/static/js/main.f837fd9b.js.map"
+    "main.b5747972.css.map": "/vix/static/css/main.b5747972.css.map",
+    "main.dedc6e5c.js.map": "/vix/static/js/main.dedc6e5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e2acd3.css",
-    "static/js/main.f837fd9b.js"
+    "static/css/main.b5747972.css",
+    "static/js/main.dedc6e5c.js"
   ]
 }
