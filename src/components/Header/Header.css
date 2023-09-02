@@ -79,3 +79,31 @@
     text-align: center;
     font-family: "e-Ukraine";
 }
+
+.header-footer {
+    width: 100%;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header_phrase {
+    font-size: 15rem;
+    font-weight: 700;
+    font-family: "e-Ukraine";
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px var(--beige);
+    color: var(--black);
+    line-height: 1;
+    background-color: var(--black);
+    margin-left: -10rem;
+}
+
+.header-links {
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.header-links__item img{
+    width: 6rem;
+    height: 6rem;
+}

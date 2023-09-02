@@ -4,6 +4,9 @@ import logo from '../../assets/img/logo.svg';
 import Nav from './Nav/Nav';
 import { useSelector } from 'react-redux';
 import ButtonSpin from './ButtonSpin/ButtonSpin';
+import insta from '../../assets/img/instagram.svg';
+import tg from '../../assets/img/tg.svg';
+import be from '../../assets/img/be.svg';
 
 const Header = () => {
 
@@ -24,6 +27,20 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='header-banner'><h2>VODOPOLOVA VIKTORIA</h2></div>
+            </div>
+            <div className='header-footer row'>
+                <h1 className='header_phrase'>WEB-DESIGNER</h1>
+                <div className='header-links row'>
+                    <a href='#' className='header-links__item'>
+                        <img src={insta} alt='instagram link' />
+                    </a>
+                    <a href='#' className='header-links__item'>
+                        <img src={tg} alt='telegram link' />
+                    </a>
+                    <a href='#' className='header-links__item'>
+                        <img src={be} alt='be link' />
+                    </a>
+                </div>
             </div>
         </header>
     );
