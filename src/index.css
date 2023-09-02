@@ -12,6 +12,9 @@ html {
 
 a {
   text-decoration: none;
+  font-weight: inherit;
+  color: inherit;
+  font-family: inherit;
 }
 
 .col {

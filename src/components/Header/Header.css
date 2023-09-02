@@ -4,4 +4,5 @@
     width: auto;
     align-items: center;
     border: var(--border-gray);
+    background-color: var(--black);
 }
