@@ -1,0 +1,10 @@
+.main {
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-blend-mode: multiply;
+    background: url(./assets/img/background.svg), var(--black) no-repeat;
+    background-position: top;
+    background-size: cover;
+}
