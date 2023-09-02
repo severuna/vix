@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/vix/static/css/main.6ec47127.css",
+    "main.css": "/vix/static/css/main.2bf7dbf6.css",
     "main.js": "/vix/static/js/main.65acdb8e.js",
     "static/media/background.svg": "/vix/static/media/background.f31176c38b336d67ade3.svg",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/vix/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
     "static/media/header_banner.png": "/vix/static/media/header_banner.37feb5657feaa8d386df.png",
+    "static/media/e-Ukraine-Medium.otf": "/vix/static/media/e-Ukraine-Medium.768e3644ab7db178be11.otf",
+    "static/media/e-Ukraine-Regular.otf": "/vix/static/media/e-Ukraine-Regular.38805a5a6a103eb1aa7d.otf",
+    "static/media/e-Ukraine-UltraLight.otf": "/vix/static/media/e-Ukraine-UltraLight.0db29a0c254eda5ab03e.otf",
+    "static/media/e-Ukraine-Thin.otf": "/vix/static/media/e-Ukraine-Thin.30120570168ed1c0e886.otf",
+    "static/media/e-Ukraine-Light.otf": "/vix/static/media/e-Ukraine-Light.051230eeb9d14f5e4305.otf",
+    "static/media/e-Ukraine-Bold.otf": "/vix/static/media/e-Ukraine-Bold.b0b74cb733e17bc41a86.otf",
     "static/media/logo.svg": "/vix/static/media/logo.7cac4aa22389243c91c839c62f0d54a3.svg",
     "index.html": "/vix/index.html",
     "static/media/burger_close.svg": "/vix/static/media/burger_close.d278b674dd669ead3828b5fc655f9899.svg",
     "static/media/burger_open.svg": "/vix/static/media/burger_open.73e4161bddab8f6956fdefb47e43668d.svg",
-    "main.6ec47127.css.map": "/vix/static/css/main.6ec47127.css.map",
+    "main.2bf7dbf6.css.map": "/vix/static/css/main.2bf7dbf6.css.map",
     "main.65acdb8e.js.map": "/vix/static/js/main.65acdb8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ec47127.css",
+    "static/css/main.2bf7dbf6.css",
     "static/js/main.65acdb8e.js"
   ]
 }
