@@ -3,6 +3,7 @@ import './Nav.css';
 import { useSelector } from 'react-redux';
 import burger_open from '../../../assets/img/burger_open.svg';
 import burger_close from '../../../assets/img/burger_close.svg';
+import LangBtns from './LangBtns/LangBtns';
 
 const Nav = () => {
 
@@ -36,6 +37,7 @@ const Nav = () => {
                 <li className='nav-list__item row'><div className='circle'/><a href='#'>{NAV_LIST[3]}</a></li>
                 <li className='nav-list__item row'><div className='circle'/><a href='#'>{NAV_LIST[4]}</a></li>
                 <li className='nav-list__item row'><div className='circle'/><a href='#'>{NAV_LIST[5]}</a></li>
+                <LangBtns />
             </ul>
             <button className={`burger-close ${hiddenBurger === 'active' ? 'hidden' : 'active'}`} onClick={(e) => hiddenNav(e)}>
                 <img src={burger_close} alt='burger close' className='burger-close__logo' />
