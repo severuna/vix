@@ -1,0 +1,48 @@
+.spin {
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid var(--gold);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 50%;
+}
+
+.spin-circle {
+    border: 5px solid var(--black);
+    top: 1.5rem;
+    right: 1.5rem;
+    position: absolute; 
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--gold);
+}
+
+.text {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes spin {
+    from {
+        top: 8.5rem;
+        right: 8.5rem;
+        transform: rotate(-40deg) translate(10rem) rotate(-40deg);
+    }
+    to {
+        top: 8.5rem;
+        right: 8.5rem;
+        transform: rotate(140deg) translate(10rem) rotate(-40deg);
+    }
+}
+
+.spin:hover .spin-circle{
+    animation: spin 1s ease forwards alternate;
+}
