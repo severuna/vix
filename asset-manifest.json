@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vix/static/css/main.3f83467e.css",
-    "main.js": "/vix/static/js/main.5d2b50e3.js",
+    "main.css": "/vix/static/css/main.3dfd2ed9.css",
+    "main.js": "/vix/static/js/main.635687e0.js",
     "static/media/background.svg": "/vix/static/media/background.f31176c38b336d67ade3.svg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/vix/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
     "static/media/header_banner.png": "/vix/static/media/header_banner.37feb5657feaa8d386df.png",
@@ -11,15 +11,18 @@
     "static/media/e-Ukraine-Thin.otf": "/vix/static/media/e-Ukraine-Thin.30120570168ed1c0e886.otf",
     "static/media/e-Ukraine-Light.otf": "/vix/static/media/e-Ukraine-Light.051230eeb9d14f5e4305.otf",
     "static/media/e-Ukraine-Bold.otf": "/vix/static/media/e-Ukraine-Bold.b0b74cb733e17bc41a86.otf",
+    "static/media/instagram.svg": "/vix/static/media/instagram.00056b8df79e0e44f7304ec0cd1063cc.svg",
+    "static/media/tg.svg": "/vix/static/media/tg.161e63ffc058375d3d7682854fbfe6d4.svg",
+    "static/media/be.svg": "/vix/static/media/be.edc23fd400a24615495b1af682fcf2bb.svg",
     "static/media/logo.svg": "/vix/static/media/logo.7cac4aa22389243c91c839c62f0d54a3.svg",
     "index.html": "/vix/index.html",
     "static/media/burger_close.svg": "/vix/static/media/burger_close.d278b674dd669ead3828b5fc655f9899.svg",
     "static/media/burger_open.svg": "/vix/static/media/burger_open.73e4161bddab8f6956fdefb47e43668d.svg",
-    "main.3f83467e.css.map": "/vix/static/css/main.3f83467e.css.map",
-    "main.5d2b50e3.js.map": "/vix/static/js/main.5d2b50e3.js.map"
+    "main.3dfd2ed9.css.map": "/vix/static/css/main.3dfd2ed9.css.map",
+    "main.635687e0.js.map": "/vix/static/js/main.635687e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f83467e.css",
-    "static/js/main.5d2b50e3.js"
+    "static/css/main.3dfd2ed9.css",
+    "static/js/main.635687e0.js"
   ]
 }
