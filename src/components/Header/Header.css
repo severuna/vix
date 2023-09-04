@@ -6,9 +6,20 @@
     background-color: var(--black);
     gap: 6.6rem;
 }
+
 .header-head {
     align-items: center;
     justify-content: center;
+}
+
+.logo {
+    transition: all 1s ease-in;
+}
+
+.logo:hover {
+    box-shadow: 0px 2px 20px 5px var(--gold);
+    -webkit-box-shadow: 0px 2px 20px 5px var(--gold);
+    -moz-box-shadow: 0px 2px 20px 5px var(--gold);
 }
 
 .header-content {
@@ -106,4 +117,17 @@
 .header-links__item img{
     width: 6rem;
     height: 6rem;
+}
+
+@media only screen and (max-width : 1680px) {
+    .header-title {
+        font-size: 4.4rem;
+    }
+
+    .header-banner h2{
+        font-size: 2.5rem;
+    }
+    .header_phrase {
+        font-size: 11rem;
+    }
 }
