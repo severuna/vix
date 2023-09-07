@@ -46,3 +46,50 @@
 .spin:hover .spin-circle{
     animation: spin 1s ease forwards alternate;
 }
+
+
+@media only screen and (max-width : 1024px) {
+    .spin {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    @keyframes spin {
+        from {
+            top: 6.5rem;
+            right: 6.5rem;
+            transform: rotate(-40deg) translate(8rem) rotate(-40deg);
+        }
+        to {
+            top: 8.5rem;
+            right: 8.5rem;
+            transform: rotate(140deg) translate(8rem) rotate(-40deg);
+        }
+    }
+}
+
+@media only screen and (max-width : 800px)  {
+    .spin {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .spin-circle {
+        border: 5px solid var(--black);
+        top: 1rem;
+        right: 1rem;
+    }
+
+    @keyframes spin {
+        from {
+            top: 4.5rem;
+            right: 4.5rem;
+            transform: rotate(-40deg) translate(6rem) rotate(-40deg);
+        }
+        to {
+            top: 5.8rem;
+            right: 5.8rem;
+            transform: rotate(140deg) translate(6rem) rotate(-40deg);
+        }
+    }
+}
