@@ -56,3 +56,37 @@
 .nav-list__item:hover .circle {
     visibility: visible;
 }
+
+@media only screen and (max-width : 800px)  {
+    .nav {
+        padding-top: 12rem;
+        padding-bottom: 4.6rem;
+        top: 2.4rem;
+        right: 2.4rem;
+        border: var(--border-gray);
+        width: calc(100vw - 4.8rem);
+        align-items: center;
+        background-color: var(--black);
+        z-index: 999;
+        gap: 2rem;
+    }
+
+    .burger-open {
+        position: absolute;
+        right: 2.4rem;
+        top: 3.2rem;
+    }
+
+    .nav-list {
+        gap: 1.6rem;
+    }
+
+    .burger-close {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .burger-close img {
+        width: 8rem;
+    }
+}

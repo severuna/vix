@@ -26,7 +26,7 @@ const Nav = () => {
     }
 
     return (
-        <nav className='nav col'>
+        <nav className={`nav col ${visible}`}>
             <button className={`burger-open ${hiddenBurger}`} onClick={(e) => showNav(e)}>
                 <img src={burger_open} alt='burger open' className='burger-open__logo' />
             </button>
